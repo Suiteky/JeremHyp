@@ -1,11 +1,11 @@
 import Footer from "./Footer";
 import Header from "./Header";
 
-export default function Home() {
+export default function Horaire() {
   return (
     <>
       <Header />
-      ok
+      horaire
       <Footer />
     </>
   );

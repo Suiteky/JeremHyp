@@ -1,11 +1,11 @@
 import Footer from "./Footer";
 import Header from "./Header";
 
-export default function Home() {
+export default function Tarifs() {
   return (
     <>
       <Header />
-      ok
+      tarifs
       <Footer />
     </>
   );
