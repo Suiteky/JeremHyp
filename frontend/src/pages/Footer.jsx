@@ -1,9 +1,9 @@
 import tel from "../assets/tel.png";
 import mail from "../assets/mail.jpg";
-import fb from "../assets/fb.png";
-import insta from "../assets/insta.png";
 
 export default function Footer() {
+  const onclickFB = () => {};
+
   return (
     <footer className="footer">
       <div className="telgrp">
@@ -15,8 +15,10 @@ export default function Footer() {
         <div className="mail">pasinijeremy@hypnose.com</div>
       </div>
       <div className="reseau">
-        <img src={fb} alt="fb" className="fb" />
-        <img src={insta} alt="insta" className="insta" />
+        <div className="fb">F</div>
+        <button type="button" onClick={onclickFB} className="faceb">
+          f
+        </button>
       </div>
     </footer>
   );
